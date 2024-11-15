@@ -1,10 +1,8 @@
 import pygame
 import sys
 
-# Initialize Pygame
 pygame.init()
 
-# Set up the screen
 screen_width, screen_height = 800, 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Reptile Follows Cursor")
